@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{index.html}
+= Chengchang Liu(刘程畅)
+
+~~~
+{}{img_left}{lcc.jpeg}{alt text}{180px}{}{}
+Chengchang Liu \n
+Undergraduate Student\n 
+[https://som.ustc.edu.cn/ School of Management] \n
+[https://www.ustc.edu.cn/ University of Science and Technology of China]  \n
+Contact: [7liuchengchang@gmail.com]
+~~~
+
+== About me
+I am a final-year undergraduate student at University of Science and Technology of China, majoring in Statistics. Prior to that, I got most of the credits (120\/160) required for a bachelor’s degree in CS. I am interested in Optimization and Machine Learning.\n 
+I am the coming Ph.D student in 2022 fall at the Chinese University of Hong Kong (CUHK) under supervision of Prof. [http://www.cse.cuhk.edu.hk/~cslui/ John C.S. Lui]. Besides, I work closely with Prof. [https://luoluo-sds.github.io/ Luo Luo].
+
+== Research
+I am learning bandits and online learning theory now. And I am looking for visit or research intern opportunities to do something related to optimization, online learning, multi-arm-bandits or federate learning.
+
+I was a summer intern in Prof. [http://www.tongzhang-ml.org/ Tong Zhang]'s research group where I met prof. Luo Luo and spent my last year in USTC to do some research about
+quasi-Newton methods with him. We've done some interesting work about quasi-Newton methods for minimax optimzation \[1,2\]. \n
+
+I think the following topics about the second-order methods are interesting, if you have the same interest on them, feel free to drop me an email to have a further discussion.
+
+=== Topics
+- Accelerated quasi-Newton: Can we use Nesterov acceleration on the greedy/random quasi-Newton methods to accelerate the first period of the local convergence? 
+- Global behavior of regularized Newton methods: Can we design efficient second-order methods which are globally convergent and faster than existing first-order methods under strongly convex and gradient \& Hessian Lipschitz-continuous assumptions?
+- LBFGS: quasi-Newton methods with limited memory are popular, can we give sharper convergence bound of them?
+
+==  Publications
+
+. Partial-Quasi-Newton Methods: Efficient Algorithms for Minimax Optimization  Problems with Unbalanced Dimensionality.  \n
+*Chengchang Liu*, Shuxian Bi, Luo Luo, John C.S Lui. Accepted by KDD 2022 (research track) [http://home.ustc.edu.cn/~liuchengchang/KDD_2022_PartialQuasi_Camera_Ready.pdf \[pdf\]]\n
+. Quasi-Newton Methods for Saddle Point Problems and Beyond.\n 
+*Chengchang Liu*, Luo Luo. Submitted to Neurips 2022 [https://arxiv.org/pdf/2111.02708.pdf \[pdf\]]\n
+
+
+== Presentations
+- Bachelor Degree Presentation at USTC (about Quasi-Newton methods) [http://home.ustc.edu.cn/~liuchengchang/BSpre.pdf \[pdf\]]
+- Summer Intern Presentation at HKUST (about Approximate Newton methods)   [http://home.ustc.edu.cn/~liuchengchang/HKUSTpre.pdf \[pdf\]]
